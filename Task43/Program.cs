@@ -41,10 +41,10 @@ void Output(double[,] num)
   }
   else 
   {
-    Equalisation(num);
-    Console.Write($"Точка пересечения прямых: -> ({Cross[0]}, {Cross[1]})");
+     Console.Write($"Точка пересечения прямых: -> ({Cross[0]}, {Cross[1]})");
   }
 }
 
 InputNumbers();
+Equalisation(num);
 Output(num);
